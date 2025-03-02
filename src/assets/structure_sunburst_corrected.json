@@ -1,0 +1,348 @@
+{
+    "name": "Comp\u00e9tences",
+    "children": [
+        {
+            "name": "Principes des barotraumatismes et leur pr\u00e9vention",
+            "id": "ACC-01",
+            "niveau": 1.0,
+            "pr\u00e9rogative": "PE20",
+            "description": "N1 - PE20 : Comprendre et \u00e9viter les barotraumatismes",
+            "children": [
+                {
+                    "name": "Pr\u00e9vention des accidents li\u00e9s \u00e0 l\u2019autonomie",
+                    "id": "ACC-04",
+                    "niveau": 2.0,
+                    "pr\u00e9rogative": "PA20",
+                    "description": "N2 - PA20 : Pr\u00e9venir les accidents li\u00e9s \u00e0 la plong\u00e9e en autonomie",
+                    "children": [
+                        {
+                            "name": "Conduites \u00e0 tenir en cas d\u2019accident",
+                            "id": "ACC-05",
+                            "niveau": 2.0,
+                            "pr\u00e9rogative": "PA20",
+                            "description": "N2 - PA20 : R\u00e9agir face aux accidents de plong\u00e9e",
+                            "children": [
+                                {
+                                    "name": "Pr\u00e9vention des accidents li\u00e9s \u00e0 la profondeur",
+                                    "id": "ACC-06",
+                                    "niveau": 2.0,
+                                    "pr\u00e9rogative": "PE40",
+                                    "description": "N2 - PE40 : Identifier et \u00e9viter les risques li\u00e9s \u00e0 la profondeur",
+                                    "children": [
+                                        {
+                                            "name": "Incidence de la profondeur sur la consommation",
+                                            "id": "ACC-07",
+                                            "niveau": 2.0,
+                                            "pr\u00e9rogative": "PE40",
+                                            "description": "N2 - PE40 : Pr\u00e9vention de la panne d\u2019air en profondeur",
+                                            "children": [
+                                                {
+                                                    "name": "Causes, sympt\u00f4mes et pr\u00e9vention des accidents",
+                                                    "id": "ACC-08",
+                                                    "niveau": 3.0,
+                                                    "pr\u00e9rogative": "PA40",
+                                                    "description": "N3 - PA40 : Comprendre en d\u00e9tail les m\u00e9canismes des accidents",
+                                                    "children": [
+                                                        {
+                                                            "name": "Accidents de la grande profondeur",
+                                                            "id": "ACC-09",
+                                                            "niveau": 3.0,
+                                                            "pr\u00e9rogative": "PA60",
+                                                            "description": "N3 - PA60 : Gestion des risques sp\u00e9cifiques aux plong\u00e9es profondes",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Principes de l\u2019accident de d\u00e9saturation",
+            "id": "ACC-02",
+            "niveau": 1.0,
+            "pr\u00e9rogative": "PE20",
+            "description": "N1 - PE20 : Comprendre les accidents de d\u00e9saturation",
+            "children": []
+        },
+        {
+            "name": "Causes et pr\u00e9vention de l\u2019essoufflement",
+            "id": "ACC-03",
+            "niveau": 1.0,
+            "pr\u00e9rogative": "PE20",
+            "description": "N1 - PE20 : Identifier et pr\u00e9venir l\u2019essoufflement",
+            "children": []
+        },
+        {
+            "name": "Principe de l\u2019accident de d\u00e9saturation",
+            "id": "DES-01",
+            "niveau": 1.0,
+            "pr\u00e9rogative": "PE20",
+            "description": "N1 - PE20 : Comprendre les bases de la d\u00e9saturation",
+            "children": [
+                {
+                    "name": "Utilisation basique des ordinateurs et table f\u00e9d\u00e9rale",
+                    "id": "DES-02",
+                    "niveau": 1.0,
+                    "pr\u00e9rogative": "PE20",
+                    "description": "N1 - PE20 : Apprendre \u00e0 utiliser les tables de plong\u00e9e",
+                    "children": [
+                        {
+                            "name": "Connaissance des moyens de d\u00e9compression",
+                            "id": "DES-03",
+                            "niveau": 2.0,
+                            "pr\u00e9rogative": "PA20",
+                            "description": "N2 - PA20 : Comprendre les diff\u00e9rents moyens de d\u00e9compression",
+                            "children": [
+                                {
+                                    "name": "Fonctionnement des ordinateurs et r\u00e8gles de cohabitation",
+                                    "id": "DES-04",
+                                    "niveau": 2.0,
+                                    "pr\u00e9rogative": "PA20",
+                                    "description": "N2 - PA20 : Utilisation des ordinateurs et principes de cohabitation",
+                                    "children": [
+                                        {
+                                            "name": "Rappel de la courbe de plong\u00e9e sans palier",
+                                            "id": "DES-05",
+                                            "niveau": 2.0,
+                                            "pr\u00e9rogative": "PE40",
+                                            "description": "N2 - PE40 : Rappel des courbes sans palier",
+                                            "children": [
+                                                {
+                                                    "name": "Identification des param\u00e8tres utiles d\u2019un ordinateur",
+                                                    "id": "DES-06",
+                                                    "niveau": 2.0,
+                                                    "pr\u00e9rogative": "PE40",
+                                                    "description": "N2 - PE40 : Apprentissage des param\u00e8tres d\u2019un ordinateur",
+                                                    "children": [
+                                                        {
+                                                            "name": "Connaissance avanc\u00e9e des tables f\u00e9d\u00e9rales",
+                                                            "id": "DES-07",
+                                                            "niveau": 3.0,
+                                                            "pr\u00e9rogative": "PA40",
+                                                            "description": "N3 - PA40 : Utilisation avanc\u00e9e des tables f\u00e9d\u00e9rales",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Connaissance des mod\u00e8les de d\u00e9saturation",
+                                                                    "id": "DES-08",
+                                                                    "niveau": 3.0,
+                                                                    "pr\u00e9rogative": "PA40",
+                                                                    "description": "N3 - PA40 : Comparaison des mod\u00e8les de d\u00e9saturation",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "Cohabitation des proc\u00e9dures de d\u00e9saturation",
+                                                                            "id": "DES-09",
+                                                                            "niveau": 3.0,
+                                                                            "pr\u00e9rogative": "PA60",
+                                                                            "description": "N3 - PA60 : Comprendre l\u2019interaction entre diff\u00e9rentes m\u00e9thodes de d\u00e9saturation",
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Charte du plongeur responsable",
+            "id": "ENV-01",
+            "niveau": 1.0,
+            "pr\u00e9rogative": "PE20",
+            "description": "N1 - PE20 : Respect de l\u2019environnement sous-marin",
+            "children": [
+                {
+                    "name": "Respect du milieu et stabilisation",
+                    "id": "ENV-02",
+                    "niveau": 1.0,
+                    "pr\u00e9rogative": "PE20",
+                    "description": "N1 - PE20 : Adopter une attitude respectueuse sous l\u2019eau",
+                    "children": [
+                        {
+                            "name": "Connaissance des risques et dangers du milieu",
+                            "id": "ENV-03",
+                            "niveau": 1.0,
+                            "pr\u00e9rogative": "PE20",
+                            "description": "N1 - PE20 : Identifier les dangers du milieu subaquatique",
+                            "children": [
+                                {
+                                    "name": "Connaissance des risques et dangers du milieu avanc\u00e9e",
+                                    "id": "ENV-04",
+                                    "niveau": 2.0,
+                                    "pr\u00e9rogative": "PA20",
+                                    "description": "N2 - PA20 : Identifier les dangers sp\u00e9cifiques des plong\u00e9es autonomes",
+                                    "children": [
+                                        {
+                                            "name": "Identification des esp\u00e8ces courantes",
+                                            "id": "ENV-05",
+                                            "niveau": 2.0,
+                                            "pr\u00e9rogative": "PA20",
+                                            "description": "N2 - PA20 : Reconna\u00eetre la faune et la flore sous-marines",
+                                            "children": [
+                                                {
+                                                    "name": "Sensibilisation aux risques en plong\u00e9e profonde",
+                                                    "id": "ENV-06",
+                                                    "niveau": 2.0,
+                                                    "pr\u00e9rogative": "PE40",
+                                                    "description": "N2 - PE40 : Conna\u00eetre les dangers sp\u00e9cifiques des grandes profondeurs",
+                                                    "children": [
+                                                        {
+                                                            "name": "Impact de la plong\u00e9e sur l\u2019environnement",
+                                                            "id": "ENV-07",
+                                                            "niveau": 3.0,
+                                                            "pr\u00e9rogative": "PA40",
+                                                            "description": "N3 - PA40 : \u00c9tudier l\u2019impact de l\u2019activit\u00e9 humaine sur les fonds marins",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Connaissance approfondie du milieu subaquatique",
+                                                                    "id": "ENV-08",
+                                                                    "niveau": 3.0,
+                                                                    "pr\u00e9rogative": "PA40",
+                                                                    "description": "N3 - PA40 : Analyse des \u00e9cosyst\u00e8mes marins",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "Connaissance des dangers sp\u00e9cifiques en grande profondeur",
+                                                                            "id": "ENV-09",
+                                                                            "niveau": 3.0,
+                                                                            "pr\u00e9rogative": "PA60",
+                                                                            "description": "N3 - PA60 : Gestion des risques pour la faune et flore en grande profondeur",
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Connaissance du fonctionnement du d\u00e9tendeur",
+            "id": "MAT-01",
+            "niveau": 2.0,
+            "pr\u00e9rogative": "PA20",
+            "description": "N2 - PA20 : Comprendre le fonctionnement du d\u00e9tendeur",
+            "children": [
+                {
+                    "name": "Entretien et pr\u00e9cautions d\u2019utilisation du mat\u00e9riel",
+                    "id": "MAT-02",
+                    "niveau": 2.0,
+                    "pr\u00e9rogative": "PA20",
+                    "description": "N2 - PA20 : Entretien et stockage du mat\u00e9riel de plong\u00e9e",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Notions de physique",
+            "id": "PHY-01",
+            "niveau": 1.0,
+            "pr\u00e9rogative": "PE20",
+            "description": "N1 - PE20 : Comprendre les bases de la physique en plong\u00e9e",
+            "children": [
+                {
+                    "name": "Notion de pression, force et surface",
+                    "id": "PHY-02",
+                    "niveau": 2.0,
+                    "pr\u00e9rogative": "PA20",
+                    "description": "N2 - PA20 : Relation entre pression, force et surface",
+                    "children": [
+                        {
+                            "name": "Variations de pression et de volume",
+                            "id": "PHY-03",
+                            "niveau": 2.0,
+                            "pr\u00e9rogative": "PA20",
+                            "description": "N2 - PA20 : Effets des variations de pression en plong\u00e9e",
+                            "children": [
+                                {
+                                    "name": "Calculs simples : consommation, autonomie en gaz",
+                                    "id": "PHY-04",
+                                    "niveau": 2.0,
+                                    "pr\u00e9rogative": "PA20",
+                                    "description": "N2 - PA20 : Calculs li\u00e9s \u00e0 la consommation d\u2019air",
+                                    "children": [
+                                        {
+                                            "name": "Flottabilit\u00e9 et calcul de poids apparent",
+                                            "id": "PHY-05",
+                                            "niveau": 2.0,
+                                            "pr\u00e9rogative": "PA20",
+                                            "description": "N2 - PA20 : Calcul du lestage et de la flottabilit\u00e9",
+                                            "children": [
+                                                {
+                                                    "name": "Flottabilit\u00e9 et impact de la profondeur",
+                                                    "id": "PHY-06",
+                                                    "niveau": 2.0,
+                                                    "pr\u00e9rogative": "PE40",
+                                                    "description": "N2 - PE40 : Impact de la profondeur sur l\u2019\u00e9quilibre du plongeur",
+                                                    "children": [
+                                                        {
+                                                            "name": "Calculs de consommation et autonomie avanc\u00e9e",
+                                                            "id": "PHY-07",
+                                                            "niveau": 3.0,
+                                                            "pr\u00e9rogative": "PA40",
+                                                            "description": "N3 - PA40 : Calculs avanc\u00e9s de consommation et autonomie",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pr\u00e9rogatives du plongeur et documents pour plonger",
+            "id": "REG-01",
+            "niveau": 1.0,
+            "pr\u00e9rogative": "PE20",
+            "description": "N1 - PE20 : Conna\u00eetre les documents n\u00e9cessaires pour plonger",
+            "children": [
+                {
+                    "name": "Pr\u00e9rogatives du plongeur en autonomie",
+                    "id": "REG-02",
+                    "niveau": 2.0,
+                    "pr\u00e9rogative": "PA20",
+                    "description": "N2 - PA20 : Comprendre les r\u00e8gles et responsabilit\u00e9s d\u2019un plongeur autonome",
+                    "children": [
+                        {
+                            "name": "Connaissance avanc\u00e9e du cadre f\u00e9d\u00e9ral",
+                            "id": "REG-03",
+                            "niveau": 2.0,
+                            "pr\u00e9rogative": "PA40",
+                            "description": "N2 - PA40 : R\u00e9glementation avanc\u00e9e pour les plongeurs autonomes avanc\u00e9s",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

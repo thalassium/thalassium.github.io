@@ -1,0 +1,698 @@
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "Accidents",
+      "value": 3,
+      "children": [
+        {
+          "categorie": "Accidents",
+          "value": 0.1,
+          "id": "ACC-01",
+          "id parent": "Accidents",
+          "niveau": "Niveau 1",
+          "prérogative": "PE20",
+          "niveau arc parent": "",
+          "name": "Principes des barotraumatismes et leur prévention",
+          "description": "N1 - PE20 - Principes des barotraumatismes et leur prévention",
+          "shortdesc": "Barotraumatismes prévention",
+          "nivpre": "Niveau 1 PE20",
+          "children": [
+            {
+              "categorie": "Accidents",
+              "value": 3,
+              "id": "ACC-04",
+              "id parent": "ACC-01",
+              "niveau": "Niveau 2",
+              "prérogative": "PA20",
+              "niveau arc parent": "PE20",
+              "name": "Prévention des accidents liés à l'autonomie",
+              "description": "N2 - PA20 - Prévention des accidents liés à l'autonomie",
+              "shortdesc": "Prévention accident autonomie",
+              "nivpre": "Niveau 2 PA20",
+              "children": [
+                {
+                  "categorie": "Accidents",
+                  "value": 1,
+                  "id": "ACC-06",
+                  "id parent": "ACC-04",
+                  "niveau": "Niveau 2",
+                  "prérogative": "PE40",
+                  "niveau arc parent": "PA20",
+                  "name": "Prévention des accidents liés à la profondeur",
+                  "description": "N2 - PE40 - Prévention des accidents liés à la profondeur",
+                  "shortdesc": "Prévention accident profondeur",
+                  "nivpre": "Niveau 2 PE40"
+                },
+                {
+                  "categorie": "Accidents",
+                  "value": 4,
+                  "id": "ACC-07",
+                  "id parent": "ACC-04",
+                  "niveau": "Niveau 2",
+                  "prérogative": "PE40",
+                  "niveau arc parent": "PA20",
+                  "name": "Incidence de la profondeur sur la consommation",
+                  "description": "N2 - PE40 - Incidence de la profondeur sur la consommation",
+                  "shortdesc": "Impact profondeur consommation",
+                  "nivpre": "Niveau 2 PE40",
+                  "children": [
+                    {
+                      "categorie": "Accidents",
+                      "value": 1,
+                      "id": "ACC-08",
+                      "id parent": "ACC-07",
+                      "niveau": "Niveau 3",
+                      "prérogative": "PA40",
+                      "niveau arc parent": "PE40",
+                      "name": "Causes, symptômes et prévention des accidents",
+                      "description": "N3 - PA40 - Causes, symptômes et prévention des accidents",
+                      "shortdesc": "Prévention accidents symptômes",
+                      "nivpre": "Niveau 3 PA40",
+                      "children": [
+                        {
+                          "categorie": "Accidents",
+                          "value": 1,
+                          "id": "ACC-09",
+                          "id parent": "ACC-08",
+                          "niveau": "Niveau 3",
+                          "prérogative": "PA60",
+                          "niveau arc parent": "PA40",
+                          "name": "Accidents de la grande profondeur",
+                          "description": "N3 - PA60 - Accidents de la grande profondeur",
+                          "shortdesc": "Accidents grande profondeur",
+                          "nivpre": "Niveau 3 PA60"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "categorie": "Accidents",
+              "value": 1,
+              "id": "ACC-05",
+              "id parent": "ACC-01",
+              "niveau": "Niveau 2",
+              "prérogative": "PA20",
+              "niveau arc parent": "PE20",
+              "name": "Conduites à tenir en cas d'accident",
+              "description": "N2 - PA20 - Conduites à tenir en cas d'accident",
+              "shortdesc": "Conduites en cas accident",
+              "nivpre": "Niveau 2 PA20"
+            }
+          ]
+        },
+        {
+          "categorie": "Accidents",
+          "value": 6,
+          "id": "ACC-02",
+          "id parent": "Accidents",
+          "niveau": "Niveau 1",
+          "prérogative": "PE20",
+          "niveau arc parent": "",
+          "name": "Principes de l'accident de désaturation",
+          "description": "N1 - PE20 - Principes de l'accident de désaturation",
+          "nivpre": "Niveau 1 PE20",
+          "shortdesc": "Accident désaturation"
+        },
+        {
+          "categorie": "Accidents",
+          "value": 3,
+          "id": "ACC-03",
+          "id parent": "Accidents",
+          "niveau": "Niveau 1",
+          "prérogative": "PE20",
+          "niveau arc parent": "",
+          "name": "Causes et prévention de l'essoufflement",
+          "description": "N1 - PE20 - Causes et prévention de l'essoufflement",
+          "nivpre": "Niveau 1 PE20",
+          "shortdesc": "Prévention essoufflement"
+        }
+      ]
+    },
+    {
+      "name": "Désaturation",
+      "value": 3,
+      "children": [
+        {
+          "categorie": "Désaturation",
+          "value": 3,
+          "id": "DES-01",
+          "id parent": "Désaturation",
+          "niveau": "Niveau 1",
+          "prérogative": "PE20",
+          "niveau arc parent": "",
+          "name": "Principe de l'accident de désaturation",
+          "description": "N1 - PE20 - Principe de l'accident de désaturation",
+          "nivpre": "Niveau 1 PE20",
+          "shortdesc": "Principe désaturation"
+        },
+        {
+          "categorie": "Désaturation",
+          "value": 1,
+          "id": "DES-02",
+          "id parent": "Désaturation",
+          "niveau": "Niveau 1",
+          "prérogative": "PE20",
+          "niveau arc parent": "",
+          "name": "Utilisation basique des ordinateurs et table fédérale",
+          "description": "N1 - PE20 - Utilisation basique des ordinateurs et table fédérale",
+          "shortdesc": "Utilisation ordinateurs et table",
+          "nivpre": "Niveau 1 PE20",
+          "children": [
+            {
+              "categorie": "Désaturation",
+              "value": 1,
+              "id": "DES-03",
+              "id parent": "DES-02",
+              "niveau": "Niveau 2",
+              "prérogative": "PA20",
+              "niveau arc parent": "PE20",
+              "name": "Connaissance des moyens de décompression",
+              "description": "N2 - PA20 - Connaissance des moyens de décompression",
+              "shortdesc": "Moyens de décompression",
+              "nivpre": "Niveau 2 PA20",
+              "children": [
+                {
+                  "categorie": "Désaturation",
+                  "value": 1,
+                  "id": "DES-05",
+                  "id parent": "DES-03",
+                  "niveau": "Niveau 2",
+                  "prérogative": "PE40",
+                  "niveau arc parent": "PA20",
+                  "name": "Rappel de la courbe de plongée sans palier",
+                  "description": "N2 - PE40 - Rappel de la courbe de plongée sans palier",
+                  "shortdesc": "Courbe plongée sans palier",
+                  "nivpre": "Niveau 2 PE40"
+                },
+                {
+                  "categorie": "Désaturation",
+                  "value": 1,
+                  "id": "DES-06",
+                  "id parent": "DES-03",
+                  "niveau": "Niveau 2",
+                  "prérogative": "PE40",
+                  "niveau arc parent": "PA20",
+                  "name": "Identification des paramètres utiles d'un ordinateur",
+                  "description": "N2 - PE40 - Identification des paramètres utiles d'un ordinateur",
+                  "shortdesc": "Params utiles d'ordinateur",
+                  "nivpre": "Niveau 2 PE40",
+                  "children": [
+                    {
+                      "categorie": "Désaturation",
+                      "value": 1,
+                      "id": "DES-08",
+                      "id parent": "DES-06",
+                      "niveau": "Niveau 3",
+                      "prérogative": "PA40",
+                      "niveau arc parent": "PE40",
+                      "name": "Connaissance des modèles de désaturation",
+                      "description": "N3 - PA40 - Connaissance des modèles de désaturation",
+                      "shortdesc": "Modèles de désaturation",
+                      "nivpre": "Niveau 3 PA40",
+                      "children": [
+                        {
+                          "categorie": "Désaturation",
+                          "value": 1,
+                          "id": "DES-09",
+                          "id parent": "DES-08",
+                          "niveau": "Niveau 3",
+                          "prérogative": "PA60",
+                          "niveau arc parent": "PA40",
+                          "name": "Cohabitation des procédures de désaturation",
+                          "description": "N3 - PA60 - Cohabitation des procédures de désaturation",
+                          "shortdesc": "Procédures désaturation",
+                          "nivpre": "Niveau 3 PA60"
+                        }
+                      ]
+                    },
+                    {
+                      "categorie": "Désaturation",
+                      "value": 1,
+                      "id": "DES-07",
+                      "id parent": "DES-06",
+                      "niveau": "Niveau 3",
+                      "prérogative": "PA40",
+                      "niveau arc parent": "PE40",
+                      "name": "Connaissance avancée des tables fédérales",
+                      "description": "N3 - PA40 - Connaissance avancée des tables fédérales",
+                      "shortdesc": "Tables fédérales avancées",
+                      "nivpre": "Niveau 3 PA40"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "categorie": "Désaturation",
+              "value": 1,
+              "id": "DES-04",
+              "id parent": "DES-02",
+              "niveau": "Niveau 2",
+              "prérogative": "PA20",
+              "niveau arc parent": "PE20",
+              "name": "Fonctionnement des ordinateurs et règles de cohabitation",
+              "description": "N2 - PA20 - Fonctionnement des ordinateurs et règles de cohabitation",
+              "shortdesc": "Ordinateurs & cohabitation",
+              "nivpre": "Niveau 2 PA20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Matériel",
+      "value": 0.1,
+      "children": [
+        {
+          "categorie": "Matériel",
+          "value": 1,
+          "id": "MAT-00",
+          "id parent": "Matériel",
+          "niveau": "Niveau 1",
+          "prérogative": "PE20",
+          "niveau arc parent": "",
+          "name": "",
+          "description": "N1 - PE20 - Vide",
+          "shortdesc": "",
+          "nivpre": "Niveau 1 PE20",
+          "children": [
+            {
+              "categorie": "Matériel",
+              "value": 1,
+              "id": "MAT-0B",
+              "id parent": "MAT-00",
+              "niveau": "Niveau 2",
+              "prérogative": "PA20",
+              "niveau arc parent": "PE20",
+              "name": "",
+              "description": "N1 - PA20 - Vide",
+              "shortdesc": "",
+              "nivpre": "Niveau 2 PA20",
+              "children": [
+                {
+                  "categorie": "Matériel",
+                  "value": 1,
+                  "id": "MAT-01",
+                  "id parent": "MAT-0B",
+                  "niveau": "Niveau 2",
+                  "prérogative": "PE40",
+                  "niveau arc parent": "PE20",
+                  "name": "Connaissance du fonctionnement du détendeur",
+                  "description": "N2 - PA20 - Connaissance du fonctionnement du détendeur",
+                  "shortdesc": "Fonctionnement du détendeur",
+                  "nivpre": "Niveau 2 PE40",
+                  "children": [
+                    {
+                      "categorie": "Matériel",
+                      "value": 1,
+                      "id": "MAT-03",
+                      "id parent": "MAT-01",
+                      "niveau": "Niveau 3",
+                      "prérogative": "PA40",
+                      "niveau arc parent": "PE40",
+                      "name": "",
+                      "description": "",
+                      "shortdesc": "",
+                      "nivpre": "Niveau 3 PA40",
+                      "children": [
+                        {
+                          "categorie": "Matériel",
+                          "value": 1,
+                          "id": "MAT-05",
+                          "id parent": "MAT-03",
+                          "niveau": "Niveau 3",
+                          "prérogative": "PA60",
+                          "niveau arc parent": "PE40",
+                          "name": "",
+                          "description": "",
+                          "shortdesc": "",
+                          "nivpre": "Niveau 3 PA60"
+                        }
+                      ]
+                    },
+                    {
+                      "categorie": "Matériel",
+                      "value": 1,
+                      "id": "MAT-04",
+                      "id parent": "MAT-01",
+                      "niveau": "Niveau 3",
+                      "prérogative": "PA40",
+                      "niveau arc parent": "PE40",
+                      "name": "",
+                      "description": "",
+                      "shortdesc": "",
+                      "nivpre": "Niveau 3 PA40",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "categorie": "Matériel",
+                  "value": 1,
+                  "id": "MAT-02",
+                  "id parent": "MAT-00",
+                  "niveau": "Niveau 2",
+                  "prérogative": "PE40",
+                  "niveau arc parent": "PE20",
+                  "name": "Entretien et précautions d'utilisation du matériel",
+                  "description": "N2 - PA20 - Entretien et précautions d'utilisation du matériel",
+                  "shortdesc": "Entretien matériel précautions",
+                  "nivpre": "Niveau 2 PE40"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Milieu et environnement",
+      "value": 4,
+      "children": [
+        {
+          "categorie": "Milieu et environnement",
+          "id": "ENV-01",
+          "id parent": "Milieu et environnement",
+          "niveau": "Niveau 1",
+          "prérogative": "PE20",
+          "niveau arc parent": "",
+          "name": "Charte du plongeur responsable",
+          "description": "N1 - PE20 - Charte du plongeur responsable",
+          "shortdesc": "Charte plongeur responsable",
+          "nivpre": "Niveau 1 PE20"
+        },
+        {
+          "categorie": "Milieu et environnement",
+          "value": 1,
+          "id": "ENV-02",
+          "id parent": "Milieu et environnement",
+          "niveau": "Niveau 1",
+          "prérogative": "PE20",
+          "niveau arc parent": "",
+          "name": "Respect du milieu et stabilisation",
+          "description": "N1 - PE20 - Respect du milieu et stabilisation",
+          "shortdesc": "Respect et stabilisation"
+          
+        },
+        {
+          "categorie": "Milieu et environnement",
+          "value": 1,
+          "id": "ENV-03",
+          "id parent": "Milieu et environnement",
+          "niveau": "Niveau 1",
+          "prérogative": "PE20",
+          "niveau arc parent": "",
+          "name": "Connaissance des risques et dangers du milieu",
+          "description": "N1 - PE20 - Connaissance des risques et dangers du milieu",
+          "shortdesc": "Risques et dangers du milieu",
+          "children": [
+            {
+              "categorie": "Milieu et environnement",
+              "value": 1,
+              "id": "ENV-04",
+              "id parent": "ENV-03",
+              "niveau": "Niveau 2",
+              "prérogative": "PA20",
+              "niveau arc parent": "PE20",
+              "name": "Connaissance des risques et dangers du milieu avancée",
+              "description": "N2 - PA20 - Connaissance des risques et dangers du milieu avancée",
+              "shortdesc": "Risques avancés du milieu",
+              "nivpre": "Niveau 2 PA20",
+              "children": [
+                {
+                  "categorie": "Milieu et environnement",
+                  "value": 1,
+                  "id": "ENV-06",
+                  "id parent": "ENV-04",
+                  "niveau": "Niveau 2",
+                  "prérogative": "PE40",
+                  "niveau arc parent": "PA20",
+                  "name": "Sensibilisation aux risques en plongée profonde",
+                  "description": "N2 - PE40 - Sensibilisation aux risques en plongée profonde",
+                  "shortdesc": "Risques plongée profonde",
+                  "nivpre": "Niveau 2 PE40",
+                  "children": [
+                    {
+                      "categorie": "Milieu et environnement",
+                      "value": 1,
+                      "id": "ENV-07",
+                      "id parent": "ENV-06",
+                      "niveau": "Niveau 3",
+                      "prérogative": "PA40",
+                      "niveau arc parent": "PE40",
+                      "name": "Impact de la plongée sur l'environnement",
+                      "description": "N3 - PA40 - Impact de la plongée sur l'environnement",
+                      "shortdesc": "Impact plongée environnement",
+                      "nivpre": "Niveau 3 PA40"
+                    },
+                    {
+                      "categorie": "Milieu et environnement",
+                      "value": 3,
+                      "id": "ENV-08",
+                      "id parent": "ENV-06",
+                      "niveau": "Niveau 3",
+                      "prérogative": "PA40",
+                      "niveau arc parent": "PE40",
+                      "name": "Connaissance approfondie du milieu subaquatique",
+                      "description": "N3 - PA40 - Connaissance approfondie du milieu subaquatique",
+                      "shortdesc": "Milieu subaquatique approfondi",
+                      "children": [
+                        {
+                          "categorie": "Milieu et environnement",
+                          "value": 1,
+                          "id": "ENV-09",
+                          "id parent": "ENV-08",
+                          "niveau": "Niveau 3",
+                          "prérogative": "PA60",
+                          "niveau arc parent": "PA40",
+                          "name": "Connaissance des dangers spécifiques en grande profondeur",
+                          "description": "N3 - PA60 - Connaissance des dangers spécifiques en grande profondeur",
+                          "shortdesc": "Dangers grande profondeur",
+                          "nivpre": "Niveau 3 PA60"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "categorie": "Milieu et environnement",
+              "value": 1,
+              "id": "ENV-05",
+              "id parent": "ENV-03",
+              "niveau": "Niveau 2",
+              "prérogative": "PA20",
+              "niveau arc parent": "PE20",
+              "name": "Identification des espèces courantes",
+              "description": "N2 - PA20 - Identification des espèces courantes",
+              "shortdesc": "Espèces courantes",
+              "nivpre": "Niveau 2 PA20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Principes physiques",
+      "value": "4",
+      "children": [
+        {
+          "categorie": "Principes physiques",
+          "value": 1,
+          "id": "PHY-01",
+          "id parent": "Principes physiques",
+          "niveau": "Niveau 1",
+          "prérogative": "PE20",
+          "niveau arc parent": "",
+          "name": "Notions de physique",
+          "description": "N1 - PE20 - Notions de physique",
+          "shortdesc": "Notions de physique",
+          "nivpre": "Niveau 1 PE20",
+          "children": [
+            {
+              "categorie": "Principes physiques",
+              "value": 3,
+              "id": "PHY-02",
+              "id parent": "PHY-01",
+              "niveau": "Niveau 2",
+              "prérogative": "PA20",
+              "niveau arc parent": "PE20",
+              "name": "Notion de pression, force et surface",
+              "description": "N2 - PA20 - Notion de pression, force et surface",
+              "shortdesc": "Pression, force, surface",
+              "nivpre": "Niveau 2 PA20"
+            },
+            {
+              "categorie": "Principes physiques",
+              "value": 3,
+              "id": "PHY-03",
+              "id parent": "PHY-01",
+              "niveau": "Niveau 2",
+              "prérogative": "PA20",
+              "niveau arc parent": "PE20",
+              "name": "Variations de pression et de volume",
+              "description": "N2 - PA20 - Variations de pression et de volume",
+              "shortdesc": "Variations pression volume",
+              "nivpre": "Niveau 2 PA20"
+            },
+            {
+              "categorie": "Principes physiques",
+              "value": 1,
+              "id": "PHY-04",
+              "id parent": "PHY-01",
+              "niveau": "Niveau 2",
+              "prérogative": "PA20",
+              "niveau arc parent": "PE20",
+              "name": "Calculs simples : consommation, autonomie en gaz",
+              "description": "N2 - PA20 - Calculs simples : consommation, autonomie en gaz",
+              "shortdesc": "Calculs consommation autonomie",
+              "nivpre": "Niveau 2 PA20"
+            },
+            {
+              "categorie": "Principes physiques",
+              "value": 1,
+              "id": "PHY-05",
+              "id parent": "PHY-01",
+              "niveau": "Niveau 2",
+              "prérogative": "PA20",
+              "niveau arc parent": "PE20",
+              "name": "Flottabilité et calcul de poids apparent",
+              "description": "N2 - PA20 - Flottabilité et calcul de poids apparent",
+              "shortdesc": "Flottabilité & poids apparent",
+              "nivpre": "Niveau 2 PA20",
+              "children": [
+                {
+                  "categorie": "Principes physiques",
+                  "value": 1,
+                  "id": "PHY-06",
+                  "id parent": "PHY-05",
+                  "niveau": "Niveau 2",
+                  "prérogative": "PE40",
+                  "niveau arc parent": "PA20",
+                  "name": "Flottabilité et impact de la profondeur",
+                  "description": "N2 - PE40 - Flottabilité et impact de la profondeur",
+                  "shortdesc": "Flottabilité, impact profondeur",
+                  "nivpre": "Niveau 2 PE40",
+                  "children": [
+                    {
+                      "categorie": "Principes physiques",
+                      "value": 1,
+                      "id": "PHY-00",
+                      "id parent": "PHY-06",
+                      "niveau": "Niveau 3",
+                      "prérogative": "PA40",
+                      "niveau arc parent": "PE40",
+                      "name": "",
+                      "description": "",
+                      "shortdesc": "",
+                      "nivpre": "Niveau 3 PA40",
+                      "children": [
+                        {
+                          "categorie": "Principes physiques",
+                          "value": 1,
+                          "id": "PHY-07",
+                          "id parent": "PHY-06",
+                          "niveau": "Niveau 3",
+                          "prérogative": "PA60",
+                          "niveau arc parent": "PA40",
+                          "name": "Calculs de consommation et autonomie avancée",
+                          "description": "N3 - PA40 - Calculs de consommation et autonomie avancée",
+                          "shortdesc": "Consommation et autonomie",
+                          "nivpre": "Niveau 3 PA60"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Régl.",
+      "value": "2",
+      "children": [
+        {
+          "categorie": "Réglementation",
+          "value": 1,
+          "id": "REG-01",
+          "id parent": "Réglementation",
+          "niveau": "Niveau 1",
+          "prérogative": "PE20",
+          "niveau arc parent": "",
+          "name": "Prérogatives du plongeur et documents pour plonger",
+          "description": "N1 - PE20 - Prérogatives du plongeur et documents pour plonger",
+          "shortdesc": "Prérogatives et documents",
+          "nivpre": "Niveau 1 PE20",
+          "children": [
+            {
+              "categorie": "Réglementation",
+              "value": 1,
+              "id": "REG-02",
+              "id parent": "REG-01",
+              "niveau": "Niveau 2",
+              "prérogative": "PA20",
+              "niveau arc parent": "PE20",
+              "name": "Prérogatives du plongeur encadré à 20m - Code fédéral",
+              "description": "N2 - PA20 - Prérogatives du plongeur encadré à 20m - Code fédéral",
+              "shortdesc": "Plongeur encadré à 20m",
+              "nivpre": "Niveau 2 PA20",
+              "children": [
+                {
+                  "categorie": "Réglementation",
+                  "value": 1,
+                  "id": "REG-03",
+                  "id parent": "REG-02",
+                  "niveau": "Niveau 2",
+                  "prérogative": "PE40",
+                  "niveau arc parent": "PA20",
+                  "name": "Prérogatives du plongeur en autonomie à 40m - Code fédéral",
+                  "description": "N2 - PE40 - Prérogatives du plongeur en autonomie à 40m - Code fédéral",
+                  "shortdesc": "Plongeur autonomie à 40m",
+                  "nivpre": "Niveau 2 PE40",
+                  "children": [
+                    {
+                      "categorie": "Réglementation",
+                      "value": 1,
+                      "id": "REG-00",
+                      "id parent": "REG-03",
+                      "niveau": "Niveau 3",
+                      "prérogative": "PA40",
+                      "niveau arc parent": "PE40",
+                      "name": "",
+                      "description": "",
+                      "shortdesc": "",
+                      "nivpre": "Niveau 2 PE40",
+                      "children": [
+                        {
+                          "categorie": "Réglementation",
+                          "value": 1,
+                          "id": "REG-04",
+                          "id parent": "REG-00",
+                          "niveau": "Niveau 3",
+                          "prérogative": "PA60",
+                          "niveau arc parent": "PA40",
+                          "name": "Connaissance avancée du cadre fédéral",
+                          "description": "N3 - PA40 - Connaissance avancée du cadre fédéral",
+                          "shortdesc": "Cadre fédéral avancé",
+                          "nivpre": "Niveau 3 PA60"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
